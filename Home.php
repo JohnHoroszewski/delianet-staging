@@ -99,17 +99,18 @@ get_header(); ?>
 			<?php if ( get_field( 'homepage_your_score_link' ) ) :?>
 				<section class="your-score">
 					<div class="container">
-						<a href="<?php the_field( 'homepage_your_score_link' ); ?>">"><?php the_field( 'homepage_your_score_text' ); ?></a>
+						<a href="<?php the_field( 'homepage_your_score_link' ); ?>"><?php the_field( 'homepage_your_score_text' ); ?></a>
 					</div>
-				</section>
+				</section>	<!-- end your score -->
 			<?php endif; ?>
 
 			<?php if ( get_field( 'homepage_form' ) ) :?>
 				<section class="homepage-form">
 					<div class="container">
+						<h3>Ready to Have a Conversation?</h3>
 						<?php the_field( 'homepage_form' ); ?>
 					</div>
-				</section>
+				</section>	<!-- end homepage-form -->
 			<?php endif; ?>
 
 			<section id="val-asset" class="content clear">
