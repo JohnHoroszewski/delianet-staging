@@ -28,13 +28,29 @@
 }
 
 .your-score a:after {
-    font-family: 'delia_icons';
-    content: "\e905";
-    color: #af0b2a;
-    font-size: 0.8em;
-    margin: 0 0 0 0.35em;
-    top: 1px;
-    position: relative;
+  font-family: 'delia_icons';
+  content: "\e905";
+  color: #af0b2a;
+  font-size: 0.8em;
+  margin: 0 0 0 0.35em;
+  top: 1px;
+  position: relative;
+
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+.your-score a:hover:after {
+  margin: 0 0 0 1em;
+
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 
 .homepage-form {
@@ -48,8 +64,8 @@
     padding: 20px 0px;
 
     color: #ffffff;
-    font-size: 26px;
-    font-weight: 400;
+    font-size: 3.65em;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
 }
