@@ -27,7 +27,7 @@
 
 					<?php if( get_field('team_email') ): ?>
 						<h3 class="team-email">Email: 
-							<a href="mailto:<?php the_field('team_email'); ?>"><?php the_field('team_email'); ?></a>
+							<a style="color:#000000 !important;" href="mailto:<?php the_field('team_email'); ?>"><?php the_field('team_email'); ?></a>
 						</h3>
 					<?php endif; ?>
 

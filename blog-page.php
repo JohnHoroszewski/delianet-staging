@@ -16,9 +16,9 @@
 
 			<?php
 
-				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-			   $args = array('post_type' => array('post', 'instagram'), 'posts_per_page' => 4, 'paged' => $paged );
+			   $args = array('post_type' => array('post', 'instagram'), 'posts_per_page' => 11, 'paged' => $paged );
 			   $wp_query = new WP_Query($args);
 
 			   if($wp_query->have_posts()) :

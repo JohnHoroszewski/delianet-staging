@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	
 	<!-- If page banner selected, display here -->
-	<?php if( get_field( 'reg_page_banner' ) ) :
+	<?php if( get_field( 'reg_page_banner' ) ): 
 		
 		$pageBanner = get_field( 'reg_page_banner' ); ?>
 

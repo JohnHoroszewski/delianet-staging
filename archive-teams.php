@@ -12,7 +12,6 @@
 
 				<h1 class="page-title " >Meet the Team <span class="icon-chevron-right"></span></h1>
 
-
 			</div>
 
 

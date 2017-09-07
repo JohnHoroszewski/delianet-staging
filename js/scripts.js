@@ -94,14 +94,7 @@ jQuery(document).ready(function($) {
 	  equalheight('.blocks .block');
 	});
 	
-
-	// Add class to page title if banner in on page
-	$hasBanner = $( '.page-banner' );
-	$pageTitle = $( '.page-title' );
-
-	if ( $hasBanner.length != 0 ) {
-		$pageTitle.addClass( 'has-banner' );
-	}
+	
 	
 });
 	

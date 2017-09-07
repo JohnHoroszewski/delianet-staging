@@ -107,7 +107,6 @@ get_header(); ?>
 			<?php if ( get_field( 'homepage_form' ) ) :?>
 				<section class="homepage-form">
 					<div class="container">
-						<h3>Ready to Have a Conversation?</h3>
 						<?php the_field( 'homepage_form' ); ?>
 					</div>
 				</section>	<!-- end homepage-form -->

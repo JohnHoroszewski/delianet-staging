@@ -1444,14 +1444,16 @@ a img.aligncenter {
 	}
 }
 
-#home-see-work {
+#home-see-work,
+#page-see-work {
 	position: relative;
 }
 
-#home-see-work a{
+#home-see-work a,
+#page-see-work a {
 	display: block;
 	width: 100%;
-  position: absolute;
+	position: absolute;
 	top: 15px;
 	left: 0px;
 }
@@ -1462,20 +1464,70 @@ a img.aligncenter {
 	height: 80px;
 }
 
-#home-see-work .see-work img{
+#page-see-work .see-work {
+	margin: 100px 0;
+	background: rgba(0,0,0,.75);
+	height: 80px;
+}
+
+#home-see-work .see-work img,
+#page-see-work .see-work img {
   width: 248px;
 }
 
 @media (max-width: 919px) {
-	#home-see-work .see-work #see-work-btn {
+	#home-see-work .see-work #see-work-btn,
+	#page-see-work .see-work #see-work-btn {
 		padding: 15px 38px;
+	}
+}
+
+.page-template-personal-sales .welcome-text {
+	margin: 100px 0 0 0;
+}
+
+@media only screen and ( max-width: 919px ) {
+	.page-template-personal-sales .welcome-text {
+		margin: 0;
+	}
+}
+
+.page-template-personal-sales .image-blocks {
+	padding: 30px 0;
+	
+	text-align: center;
+}
+
+@media only screen and ( max-width: 919px ) {
+	.page-template-personal-sales .image-blocks {
+		padding: 20px 0;
+	}
+
+	.image-blocks .columns {
+		padding: 0 0 20px 0;
+	}
+
+	.image-blocks .columns:nth-of-type(2) {
+		padding: 0;
+	}
+}
+
+.page-template-personal-sales .welcome {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+@media only screen and ( max-width: 919px ) {
+	.page-template-personal-sales .welcome {
+		display: block;
+		width: 100%;
 	}
 }
 
 /*brands*/
 .click-box h5{
 	margin: 10px 0px;
-  font-size: 1.25em;
+	font-size: 1.25em;
 }
 
 #home-brand .home-brand-wrapper {
