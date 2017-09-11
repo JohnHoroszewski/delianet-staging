@@ -139,7 +139,8 @@ section.content {
 }
 .home .page-header,
 .page-template-Home .page-header {
-  background-image: url('../img/industrial_bg.jpg');
+/*  background-image: url('../img/industrial_bg.jpg');*/
+  background-image: url('../img/grass_bg.jpg');
 }
 .page-who-we-are .we-are-picture-container {
   /*background-image: url('../img/grass_bg.jpg');
